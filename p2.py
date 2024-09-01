@@ -1,0 +1,12 @@
+import pandas as pd
+data=pd.read_csv(r"C:\Users\PALLAVI ATLA\OneDrive\Documents\Dataset\Dataset\auto-mpg.csv")
+df=pd.DataFrame(data)
+print(df)
+mean=df['Horsepower'].mean()
+print(mean)
+std=df['Acceleration'].std()
+print(std)
+mode=data.groupby('Model Year')['Model Year'].count()
+print(mode)
+stats=data.describe()
+print(stats)
