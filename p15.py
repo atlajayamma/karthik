@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-
 data = {
     "First_name": ["Aryan", "Rohan", "Riya", "Yash", "Siddhant"],
     "Last_name": ["Singh", "Agarwal", "Shah", "Bhatia", "Khanna"],
@@ -9,9 +8,7 @@ data = {
     "YoE": [2,6,8,14,20],
     "Salary": [1000, 1500, 2000, 3500, 4000]
 }
-
 df = pd.DataFrame(data)
-
 # Combine YoE and Salary into a single plot
 plt.figure(figsize=(8, 6))
 plt.plot(df["YoE"], df["Salary"], marker='p', linestyle='dashed', color='blue', label='Salary')
