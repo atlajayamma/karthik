@@ -3,7 +3,7 @@ data=pd.read_csv(r"C:\Users\PALLAVI ATLA\OneDrive\Documents\Dataset\Dataset\auto
 df=pd.DataFrame(data)
 print(df)
 mean=df['Horsepower'].mean()
-print(mean)
+print("the mean of horse:",mean)
 std=df['Acceleration'].std()
 print(std)
 mode=data.groupby('Model Year')['Model Year'].count()

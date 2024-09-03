@@ -16,6 +16,3 @@ sm_column=['total salary','mean salary','number of employees']
 print("\n sum and mean of:\n",sm)
 st=df.pivot_table(values='salary',index='type',aggfunc='std')
 print("standard deviation:\n",st)
-
-
-
