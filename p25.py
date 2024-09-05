@@ -1,0 +1,20 @@
+import numpy as n
+import tensorflow as t
+s=50
+print("scalar:",s)
+m=n.array([[0,2],[2,3]])
+v=n.array([[0,2]])
+print("\n matrix:\n",m)
+print("\n vector:\n",v)
+print("\n tensor:")
+fill_2d=t.fill([3,3],4,'2d')
+fill_string=t.fill([2,2],"str",'fill_tensor_string')
+print("\n numerics:\n",fill_2d)
+print("\n string:\n",fill_string)
+g=n.gradient(m)
+print("\n gradient:\n",g)
+w,v=n.linalg.eig(m)
+mat_norm=n.linalg.norm(m)
+print("\n eigen values:\n",w)
+print("\n eigen vectirs:\n",v)
+print("\n matrix norm:",mat_norm)
