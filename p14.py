@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import pandas as pd
-data=pd.read_csv("C:\Users\PALLAVI ATLA\OneDrive\Documents\Dataset 1\Dataset\titanic.csv")
+data=pd.read_csv("C:\\Users\\PALLAVI ATLA\\OneDrive\\Documents\\Dataset 1\\Dataset\\titanic.csv")
 print(data)
 ##Histogram
 a_s=data[data['survived']==1]['age']
