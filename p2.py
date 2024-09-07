@@ -1,5 +1,5 @@
 import pandas as pd
-data=pd.read_csv(r"C:\Users\PALLAVI ATLA\OneDrive\Documents\Dataset\Dataset\auto-mpg.csv")
+data=pd.read_csv(r"C:\Users\PALLAVI ATLA\OneDrive\Documents\Dataset 1\Dataset\auto-mpg.csv")
 df=pd.DataFrame(data)
 print(df)
 mean=df['Horsepower'].mean()
