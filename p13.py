@@ -1,6 +1,6 @@
 import pandas as p
 import matplotlib.pyplot as m
-d=p.read_csv('D:\\Dataset\\titanic.csv')
+d=p.read_csv('C:\Users\PALLAVI ATLA\OneDrive\Documents\Dataset 1\Dataset\titanic.csv'))
 c=d["class"].value_counts()
 co=['g','r','k']
 m.bar(c.index,c.values, color=co,width=0.5)

@@ -1,11 +1,11 @@
 import pandas as pd
 d={
-    "first_name":["aryan","rohan","riya","yash","siddhant"],
-    "last_name":["singh","agarwal","shah","bhata","khanna"],
-    "type":["full_time","itern","full_time","part_time","full_time"],
-    "dept":["administation","technical","administation","technical","manageement"],
-    "yoe":[2,3,5,7,6],
-    "salary":[20000,5000,10000,10000,20000]
+"first_name":["aryan","rohan","riya","yash","siddhant"],
+"last_name":["singh","agarwal","shah","bhata","khanna"],
+"type":["full_time","itern","full_time","part_time","full_time"],
+"dept":["administation","technical","administation","technical","manageement"],
+"yoe":[2,3,5,7,6],
+"salary":[20000,5000,10000,10000,20000]
 }
 df=pd.DataFrame(d)
 print(df)
