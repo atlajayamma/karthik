@@ -14,26 +14,26 @@ B = array ([
   [[11,12,13], [14,15,16], [17,18,19]],
   [[21,22,23], [24,25,26], [27,28,29]],
   ])
-print(A.shape)
+print(B.shape)
 print(" B Matrix is \n",B)
 print("Tensor addition  is\n")
 C=A+B
-print(A.shape)
+print(C.shape)
 print("The Addition result C Matix\n",C)
 
 print("Tensor Subtraction  is\n")
 S=A-B
-print(A.shape)
+print(S.shape)
 print("The difference S Matix\n",S)
 
 print("Tensor Multiplication is\n")
 M=A*B
-print(A.shape)
+print(M.shape)
 print("The  Product of Scalar resultmatrix\n",M)
 
 print("Tensor division  is\n")
 DI=A/B
-print(A.shape)
+print(DI.shape)
 print("The Quotient  DI Matix\n",DI)
 
 D=array([1,2])
