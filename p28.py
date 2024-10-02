@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
-data_set=pd.read_csv(r"C:\Users\PALLAVI ATLA\OneDrive\Documents\Dataset 1\Dataset\Salary_Data.csv")
+data_set=pd.read_csv(r"C:\\Users\\PALLAVI ATLA\\OneDrive\\Documents\\Dataset 1\\Dataset\\Salary_Data.csv")
 x=data_set.iloc[:,:-1].values
 y=data_set.iloc[:,1].values
 print(x)
